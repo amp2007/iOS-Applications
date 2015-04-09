@@ -1,0 +1,12 @@
+Fill in the header of the for loop that will loop through the array and print every element starting from the beginning: for(_________;____________;_________) { System.out.println(class[i]); }
+i++
+i <= array.length
+i- -
+i == array.length
+int i = 1
+i+=
+i <= length
+int i = 0
+i
+i < class.length
+i+-

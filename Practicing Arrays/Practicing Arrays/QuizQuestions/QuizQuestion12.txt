@@ -1,0 +1,5 @@
+What is the error in this array code fragment?      double[] data;      data[0] = 15.25;
+a. The array referenced by data has not been initialized
+b. A two-dimensional array is required
+c. An out-of-bounds error occurs
+d. A cast is required

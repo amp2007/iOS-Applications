@@ -1,0 +1,5 @@
+What is the output of the following array code fragment?        final int NUMBER_OF_PLAYERS = 4;        String[] players = new String[NUMBER_OF_PLAYERS];       System.out.println(player[0]);
+a. The empty string.
+b. None due to a null pointer exception.
+c. None because you cannot use a constant to initialize the number of elements of an array.
+d. None due to an out-of-bounds error.

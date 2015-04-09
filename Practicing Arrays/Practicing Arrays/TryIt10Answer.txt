@@ -1,0 +1,12 @@
+Declare and initialize an array named people of type String with a size of 8
+String[8]
+string
+new
+people[8]
+String
+people[]
+people
+string[]
+array[]
+now
+String[]

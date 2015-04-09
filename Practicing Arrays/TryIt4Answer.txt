@@ -1,0 +1,12 @@
+What statement will tell us the value of the fifth item in the following array of doubles:  double[] digits = {100.0, 50.5, 20.0, 777.7, 111.1, 589.0}; 
+digits
+digits(5)
+5
+double[] digits.3
+digits[5]
+digits[]
+names[2]
+digits(4)
+digits5
+4
+digits[4]

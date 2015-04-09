@@ -1,0 +1,5 @@
+Based on the following code, which of the following statements correctly prints the third value of the array, that is, the value of 9?          int[] squares = { 1, 4, 9, 16, 25, 36};
+a. System.out.println(squares(2));
+b. System.out.println(square[2]);
+c. System.out.println(square([3]);
+d. System.out.println(squares(2));

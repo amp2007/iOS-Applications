@@ -1,0 +1,5 @@
+What is the type of a variable that references an array of integers?
+a. int[]
+b. integer()
+c. integer[]
+d. int()

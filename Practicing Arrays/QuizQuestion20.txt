@@ -1,0 +1,5 @@
+What will be the output of the following code?  int[] arr = new int[9];    System.out.println(arr[9]);
+a. 0
+b. some junk value
+c. error because index is out of range
+e. none of these

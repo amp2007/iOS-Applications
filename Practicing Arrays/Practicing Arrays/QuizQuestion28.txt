@@ -1,0 +1,5 @@
+Which of the following is FALSE about arrays in Java
+a. A java array is always an object
+b. Length of array can be changed after creation of array
+c. Arrays in Java are always allocated on heap
+d. Arrays are different from ArrayLists

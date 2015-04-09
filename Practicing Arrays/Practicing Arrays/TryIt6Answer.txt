@@ -1,0 +1,12 @@
+Assign the String “College” to the first index of the already declared array named schools
+schools[2]
+“College”
+schools[]
+index
+College
+" "
+schools
+schools[1]
+[]
+schools[0]
+college

@@ -1,0 +1,5 @@
+Which of the following statements gets the number of integers in the array that follows?  int[] customers = new int[55];
+a. int size = customers.length();
+b. int size = customers.length;
+c. int size = customers.size();
+d. int size = Arrays.size(customers);

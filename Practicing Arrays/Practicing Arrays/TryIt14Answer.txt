@@ -1,0 +1,12 @@
+Assign the String “North” to index 2 of the already declared array named compass
+north
+compass[]
+“North”
+“ “
+compass(2)
+String[1]
+compass[2]
+compass
+“South”
+compass[1]
+compass(1)

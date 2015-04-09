@@ -1,0 +1,12 @@
+What statement will tell us the value of the last item in the following array of doubles:  String[] schools = {“UGA”, “Florida”, “Alabama”, “South Carolina”, “GGC”};
+schools[last]
+schools(5)
+GGC
+schools[5]
+“GGC”
+schools(4)
+schools[4]
+String[4]
+schools
+last
+4

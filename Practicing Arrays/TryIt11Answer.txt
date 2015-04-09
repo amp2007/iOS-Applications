@@ -1,0 +1,12 @@
+What statement will tell us the value of the first item in the following array of ints:  int[] numbers = {0, 15, 65, 50};
+numbers[]
+1
+int[1]
+numbers(0)
+0
+numbers[1]
+int[0]
+numbers(1)
+int
+numbers[0]
+new

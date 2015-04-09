@@ -1,0 +1,15 @@
+Fill in the header of the for loop that will loop through the array and print every element starting from the beginning: for(_________;____________;_________) { System.out.println(array[i]); }
+int i
+i < array.length
+int i = 1
+i == array.length
+int i = 0
+i+=
+i <= array.length
+i- -
+i++
+i > array.length
+i
+
+
+

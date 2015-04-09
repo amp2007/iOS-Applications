@@ -1,0 +1,12 @@
+Declare and initialize an array named money of type double with a size of 2
+double[]
+money[]
+int[]
+double
+double[2]
+money[2]
+new
+double[0]
+money
+boolean
+int

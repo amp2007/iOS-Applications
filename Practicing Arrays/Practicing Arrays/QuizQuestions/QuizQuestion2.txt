@@ -1,0 +1,5 @@
+Which code constructs an array of 6 integers?
+a. new integer[5]
+b. new integer[6]
+c. new int[5]
+d. new int[6]

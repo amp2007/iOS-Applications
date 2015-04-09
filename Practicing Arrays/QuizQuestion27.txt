@@ -1,0 +1,5 @@
+What is the index value of the first element?
+a. -1
+b. 0
+c. 1
+d. 2

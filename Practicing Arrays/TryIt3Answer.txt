@@ -1,0 +1,14 @@
+What statement will tell us the value of the third item in the following array of Strings: String[] names = {“John”,”Brittany”,”Joe”,”Ashley”,”Billy”}; 
+names[]
+3
+2
+names[3]
+names(3)
+names
+names[2]
+names()
+get3
+names(2)
+String names[2]
+
+

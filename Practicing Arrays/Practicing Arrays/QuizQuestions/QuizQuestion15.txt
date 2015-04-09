@@ -1,0 +1,5 @@
+Arrays suffer from a significant limitation:
+a. you cannot determine the number of elements in the array
+b. their length is fixed
+c. index values range from 0 to length + 1
+d. you cannot copy values from one array to another

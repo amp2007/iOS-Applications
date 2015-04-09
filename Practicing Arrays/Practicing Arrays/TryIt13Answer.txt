@@ -1,0 +1,12 @@
+Assign the number 20.14 to index 8 of the already declared array named decimals
+number[]
+decimals[8]
+8
+2014
+decimals[]
+20.14
+new
+decimals(7)
+decimals
+decimals[7]
+decimals(8)

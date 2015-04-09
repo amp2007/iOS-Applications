@@ -1,0 +1,14 @@
+Declare and initialize an array named students of type String with a size of 10
+int[10]
+students
+Students
+String[10]
+new
+int[]
+String 
+students[10]
+String[]
+double[]
+float
+
+

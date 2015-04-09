@@ -1,0 +1,5 @@
+Which statement declares a variable that references an array of integers?
+a. int[] intData = new int[6];
+b. int() intData = new int(6);
+c. integer[] intData = new integer[6];
+d. integer() intData = new integer(6);

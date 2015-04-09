@@ -1,0 +1,12 @@
+Assign the number 10 to index 4 of the already declared array named digits
+digits[3]
+3
+digits[]
+digits[4]
+4
+=
+10
+digits[10]
+[]
+digits[5]
+5

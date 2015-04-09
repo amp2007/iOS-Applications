@@ -1,0 +1,5 @@
+Based on the following statement, primes[3] = _______.          int[] primes = {2, 3, 5, 7, 11};
+a. 5	
+b. 2
+c. bounds error
+d. 7

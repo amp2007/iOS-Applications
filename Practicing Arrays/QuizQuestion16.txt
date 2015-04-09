@@ -1,0 +1,5 @@
+Which of the following, if any, is an invalid array declaration?
+a. String[] names = new String[5];
+b. String[] names = new String[0];
+c. String[] names = {“one”,”two”};
+d. all are valid

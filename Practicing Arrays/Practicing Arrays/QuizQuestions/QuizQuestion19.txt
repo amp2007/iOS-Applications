@@ -1,0 +1,5 @@
+What will be the output of the following code?  int[] arr = new int[9];    System.out.println(arr[0]);
+a. 0
+b. some junk value
+c. error because array is not initialized
+d. none of these

@@ -1,0 +1,5 @@
+How would you declare and initialize an array, palette, of Color objects of size 6?
+a. Color palette = new Color[5];
+b. Color palette[6];
+c. Color[5] palette;
+d. Color[] palette = new Color[6];

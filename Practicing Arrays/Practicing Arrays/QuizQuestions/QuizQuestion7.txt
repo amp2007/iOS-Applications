@@ -1,0 +1,5 @@
+Fill in the if condition that will only access the array when the index variable i is within the legal bounds.      if(__________)      data[i] = value;
+a. 0 <= i < data.length()
+b. 0 <= i && i < data.length
+c. 0 <= i < data.length
+d. 0 <= i && i < data.length()

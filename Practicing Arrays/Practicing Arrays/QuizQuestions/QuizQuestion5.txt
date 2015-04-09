@@ -1,0 +1,5 @@
+When an array is created, all elements are initialized with _______.
+a. zero
+b. array elements are not initialized when an array is created
+c. null
+d. a fixed value that depends on the element type

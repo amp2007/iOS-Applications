@@ -1,0 +1,12 @@
+What statement will tell us the value of the tenth item in the following array of ints: int[] random = {99, 89, 79, 69, 59, 49, 39, 29, 19, 10}; 
+random[10]
+int
+10
+int[9]
+random(10)
+random[9]
+random[2]
+9
+get10
+random(9)
+int[2]

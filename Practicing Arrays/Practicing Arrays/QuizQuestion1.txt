@@ -1,0 +1,5 @@
+A(n) ____________ is a sequence of values of the same type.
+a. run 
+b. array list
+c. sequence
+d. array

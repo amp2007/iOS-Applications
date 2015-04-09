@@ -1,0 +1,5 @@
+What is the output of the following array code fragment?        String[] players = {“Harry”, “Sally”, “Jeremy”, “Cameron”};         System.out.println(player[1]);
+a. Harry
+b. None because the code is missing a new operator
+c. None because the code does not compile
+d. Sally

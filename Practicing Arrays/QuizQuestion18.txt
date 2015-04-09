@@ -1,0 +1,5 @@
+The length of the following array is:  ? int[] grades = new int[4];
+a. 0
+b. 3
+c. 4
+d. 5

@@ -1,0 +1,795 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78094E7D19F00EB7009FDE45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78094E7C19F00EB7009FDE45 /* Foundation.framework */; };
+		78094E7F19F00EB7009FDE45 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78094E7E19F00EB7009FDE45 /* CoreGraphics.framework */; };
+		78094E8119F00EB7009FDE45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78094E8019F00EB7009FDE45 /* UIKit.framework */; };
+		78094E8719F00EB7009FDE45 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78094E8519F00EB7009FDE45 /* InfoPlist.strings */; };
+		78094E8919F00EB7009FDE45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78094E8819F00EB7009FDE45 /* main.m */; };
+		78094E8D19F00EB7009FDE45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78094E8C19F00EB7009FDE45 /* AppDelegate.m */; };
+		78094E9019F00EB7009FDE45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78094E8E19F00EB7009FDE45 /* Main.storyboard */; };
+		78094E9319F00EB7009FDE45 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78094E9219F00EB7009FDE45 /* ViewController.m */; };
+		78094E9519F00EB7009FDE45 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78094E9419F00EB7009FDE45 /* Images.xcassets */; };
+		78094E9C19F00EB7009FDE45 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78094E9B19F00EB7009FDE45 /* XCTest.framework */; };
+		78094E9D19F00EB7009FDE45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78094E7C19F00EB7009FDE45 /* Foundation.framework */; };
+		78094E9E19F00EB7009FDE45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78094E8019F00EB7009FDE45 /* UIKit.framework */; };
+		78094EA619F00EB7009FDE45 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78094EA419F00EB7009FDE45 /* InfoPlist.strings */; };
+		78094EA819F00EB7009FDE45 /* Practicing_ArraysTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78094EA719F00EB7009FDE45 /* Practicing_ArraysTests.m */; };
+		78094EB519F013B2009FDE45 /* LessonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78094EB419F013B2009FDE45 /* LessonsViewController.m */; };
+		78143A871A0BF88C006E8CCA /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78143A861A0BF88C006E8CCA /* Images-2.xcassets */; };
+		781C851E1A0C01F900745432 /* array2.png in Resources */ = {isa = PBXBuildFile; fileRef = 781C851D1A0C01F900745432 /* array2.png */; };
+		781C85201A0C025200745432 /* array.png in Resources */ = {isa = PBXBuildFile; fileRef = 781C851F1A0C025200745432 /* array.png */; };
+		781C85221A0C033700745432 /* array3.png in Resources */ = {isa = PBXBuildFile; fileRef = 781C85211A0C033700745432 /* array3.png */; };
+		781C85241A0C033B00745432 /* array4.png in Resources */ = {isa = PBXBuildFile; fileRef = 781C85231A0C033B00745432 /* array4.png */; };
+		781C85261A0C033F00745432 /* array5.png in Resources */ = {isa = PBXBuildFile; fileRef = 781C85251A0C033F00745432 /* array5.png */; };
+		781C85281A0C034200745432 /* array6.png in Resources */ = {isa = PBXBuildFile; fileRef = 781C85271A0C034200745432 /* array6.png */; };
+		786B124019F03B4D001F7997 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 786B123F19F03B4D001F7997 /* WebViewController.m */; };
+		786B124319F03FE1001F7997 /* LoopArrayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 786B124219F03FE1001F7997 /* LoopArrayViewController.m */; };
+		786B124619F040DF001F7997 /* SortArrayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 786B124519F040DF001F7997 /* SortArrayViewController.m */; };
+		786EBEF019F14FB600788E39 /* TryitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 786EBEEF19F14FB600788E39 /* TryitViewController.m */; };
+		786EBF3619F15D5100788E39 /* DisplayArrayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 786EBF3519F15D5100788E39 /* DisplayArrayViewController.m */; };
+		786EBF3919F1611E00788E39 /* ChangeArrayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 786EBF3819F1611E00788E39 /* ChangeArrayViewController.m */; };
+		786EBF3C19F163F800788E39 /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 786EBF3B19F163F800788E39 /* QuizViewController.m */; };
+		78D678E81A13AC5700A32689 /* QuizQuestion1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D678E71A13AC5700A32689 /* QuizQuestion1.txt */; };
+		78D678EA1A13ACD900A32689 /* QuizQuestion2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D678E91A13ACD900A32689 /* QuizQuestion2.txt */; };
+		78D678F31A13ACF200A32689 /* QuizQuestion3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D678EB1A13ACF200A32689 /* QuizQuestion3.txt */; };
+		78D678F41A13ACF200A32689 /* QuizQuestion4.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D678EC1A13ACF200A32689 /* QuizQuestion4.txt */; };
+		78D678F51A13ACF200A32689 /* QuizQuestion5.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D678ED1A13ACF200A32689 /* QuizQuestion5.txt */; };
+		78D678F61A13ACF200A32689 /* QuizQuestion6.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D678EE1A13ACF200A32689 /* QuizQuestion6.txt */; };
+		78D678F71A13ACF200A32689 /* QuizQuestion7.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D678EF1A13ACF200A32689 /* QuizQuestion7.txt */; };
+		78D678F81A13ACF200A32689 /* QuizQuestion8.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D678F01A13ACF200A32689 /* QuizQuestion8.txt */; };
+		78D678F91A13ACF200A32689 /* QuizQuestion9.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D678F11A13ACF200A32689 /* QuizQuestion9.txt */; };
+		78D678FA1A13ACF200A32689 /* QuizQuestion10.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D678F21A13ACF200A32689 /* QuizQuestion10.txt */; };
+		78D6790F1A13AD1C00A32689 /* QuizQuestion11.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D678FB1A13AD1C00A32689 /* QuizQuestion11.txt */; };
+		78D679101A13AD1C00A32689 /* QuizQuestion12.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D678FC1A13AD1C00A32689 /* QuizQuestion12.txt */; };
+		78D679111A13AD1C00A32689 /* QuizQuestion13.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D678FD1A13AD1C00A32689 /* QuizQuestion13.txt */; };
+		78D679121A13AD1C00A32689 /* QuizQuestion14.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D678FE1A13AD1C00A32689 /* QuizQuestion14.txt */; };
+		78D679131A13AD1C00A32689 /* QuizQuestion15.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D678FF1A13AD1C00A32689 /* QuizQuestion15.txt */; };
+		78D679141A13AD1C00A32689 /* QuizQuestion16.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D679001A13AD1C00A32689 /* QuizQuestion16.txt */; };
+		78D679151A13AD1C00A32689 /* QuizQuestion17.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D679011A13AD1C00A32689 /* QuizQuestion17.txt */; };
+		78D679161A13AD1C00A32689 /* QuizQuestion18.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D679021A13AD1C00A32689 /* QuizQuestion18.txt */; };
+		78D679171A13AD1C00A32689 /* QuizQuestion19.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D679031A13AD1C00A32689 /* QuizQuestion19.txt */; };
+		78D679181A13AD1C00A32689 /* QuizQuestion20.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D679041A13AD1C00A32689 /* QuizQuestion20.txt */; };
+		78D679191A13AD1C00A32689 /* QuizQuestion21.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D679051A13AD1C00A32689 /* QuizQuestion21.txt */; };
+		78D6791A1A13AD1C00A32689 /* QuizQuestion22.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D679061A13AD1C00A32689 /* QuizQuestion22.txt */; };
+		78D6791B1A13AD1C00A32689 /* QuizQuestion23.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D679071A13AD1C00A32689 /* QuizQuestion23.txt */; };
+		78D6791C1A13AD1C00A32689 /* QuizQuestion24.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D679081A13AD1C00A32689 /* QuizQuestion24.txt */; };
+		78D6791D1A13AD1C00A32689 /* QuizQuestion25.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D679091A13AD1C00A32689 /* QuizQuestion25.txt */; };
+		78D6791E1A13AD1C00A32689 /* QuizQuestion26.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D6790A1A13AD1C00A32689 /* QuizQuestion26.txt */; };
+		78D6791F1A13AD1C00A32689 /* QuizQuestion27.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D6790B1A13AD1C00A32689 /* QuizQuestion27.txt */; };
+		78D679201A13AD1C00A32689 /* QuizQuestion28.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D6790C1A13AD1C00A32689 /* QuizQuestion28.txt */; };
+		78D679211A13AD1C00A32689 /* QuizQuestion29.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D6790D1A13AD1C00A32689 /* QuizQuestion29.txt */; };
+		78D679221A13AD1C00A32689 /* QuizQuestion30.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D6790E1A13AD1C00A32689 /* QuizQuestion30.txt */; };
+		78D679371A13AD3D00A32689 /* TryIt1Answers.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D679231A13AD3D00A32689 /* TryIt1Answers.txt */; };
+		78D679381A13AD3D00A32689 /* TryIt2Answer.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D679241A13AD3D00A32689 /* TryIt2Answer.txt */; };
+		78D679391A13AD3D00A32689 /* TryIt3Answer.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D679251A13AD3D00A32689 /* TryIt3Answer.txt */; };
+		78D6793A1A13AD3D00A32689 /* TryIt4Answer.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D679261A13AD3D00A32689 /* TryIt4Answer.txt */; };
+		78D6793B1A13AD3D00A32689 /* TryIt5Answer.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D679271A13AD3D00A32689 /* TryIt5Answer.txt */; };
+		78D6793C1A13AD3D00A32689 /* TryIt6Answer.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D679281A13AD3D00A32689 /* TryIt6Answer.txt */; };
+		78D6793D1A13AD3D00A32689 /* TryIt7Answer.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D679291A13AD3D00A32689 /* TryIt7Answer.txt */; };
+		78D6793E1A13AD3D00A32689 /* TryIt8Answer.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D6792A1A13AD3D00A32689 /* TryIt8Answer.txt */; };
+		78D6793F1A13AD3D00A32689 /* TryIt9Answer.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D6792B1A13AD3D00A32689 /* TryIt9Answer.txt */; };
+		78D679401A13AD3D00A32689 /* TryIt10Answer.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D6792C1A13AD3D00A32689 /* TryIt10Answer.txt */; };
+		78D679411A13AD3D00A32689 /* TryIt11Answer.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D6792D1A13AD3D00A32689 /* TryIt11Answer.txt */; };
+		78D679421A13AD3D00A32689 /* TryIt12Answer.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D6792E1A13AD3D00A32689 /* TryIt12Answer.txt */; };
+		78D679431A13AD3D00A32689 /* TryIt13Answer.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D6792F1A13AD3D00A32689 /* TryIt13Answer.txt */; };
+		78D679441A13AD3D00A32689 /* TryIt14Answer.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D679301A13AD3D00A32689 /* TryIt14Answer.txt */; };
+		78D679451A13AD3D00A32689 /* TryIt15Answer.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D679311A13AD3D00A32689 /* TryIt15Answer.txt */; };
+		78D679461A13AD3D00A32689 /* TryIt16Answer.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D679321A13AD3D00A32689 /* TryIt16Answer.txt */; };
+		78D679471A13AD3D00A32689 /* TryIt17Answer.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D679331A13AD3D00A32689 /* TryIt17Answer.txt */; };
+		78D679481A13AD3D00A32689 /* TryIt18Answer.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D679341A13AD3D00A32689 /* TryIt18Answer.txt */; };
+		78D679491A13AD3D00A32689 /* TryIt19Answer.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D679351A13AD3D00A32689 /* TryIt19Answer.txt */; };
+		78D6794A1A13AD3D00A32689 /* TryIt20Answer.txt in Resources */ = {isa = PBXBuildFile; fileRef = 78D679361A13AD3D00A32689 /* TryIt20Answer.txt */; };
+		78D6794E1A13B14A00A32689 /* Buzzer1-2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 78D6794D1A13B14A00A32689 /* Buzzer1-2.mp3 */; };
+		78D679501A13B15A00A32689 /* GameshowBellDing1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 78D6794F1A13B15A00A32689 /* GameshowBellDing1.mp3 */; };
+		78D679591A13B1A000A32689 /* array.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 78D679511A13B1A000A32689 /* array.jpg */; };
+		78D6795A1A13B1A000A32689 /* arrays_1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 78D679521A13B1A000A32689 /* arrays_1.gif */; };
+		78D6795B1A13B1A000A32689 /* arrays_sort_asc.gif in Resources */ = {isa = PBXBuildFile; fileRef = 78D679531A13B1A000A32689 /* arrays_sort_asc.gif */; };
+		78D6795C1A13B1A000A32689 /* initilize-values-in-array.gif in Resources */ = {isa = PBXBuildFile; fileRef = 78D679541A13B1A000A32689 /* initilize-values-in-array.gif */; };
+		78D6795D1A13B1A000A32689 /* loop-string-vs-array.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D679551A13B1A000A32689 /* loop-string-vs-array.png */; };
+		78D6795E1A13B1A000A32689 /* picture-declare-java-array.gif in Resources */ = {isa = PBXBuildFile; fileRef = 78D679561A13B1A000A32689 /* picture-declare-java-array.gif */; };
+		78D6795F1A13B1A000A32689 /* picture-declare-java-array2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 78D679571A13B1A000A32689 /* picture-declare-java-array2.gif */; };
+		78D679601A13B1A000A32689 /* Slide1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 78D679581A13B1A000A32689 /* Slide1.jpg */; };
+		78D679621A13B25000A32689 /* javahome.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 78D679611A13B25000A32689 /* javahome.jpg */; };
+		78D679641A13B29900A32689 /* array.png in Resources */ = {isa = PBXBuildFile; fileRef = 78D679631A13B29900A32689 /* array.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78094E9F19F00EB7009FDE45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78094E7119F00EB7009FDE45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78094E7819F00EB7009FDE45;
+			remoteInfo = "Practicing Arrays";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78094E7919F00EB7009FDE45 /* Practicing Arrays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Practicing Arrays.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78094E7C19F00EB7009FDE45 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		78094E7E19F00EB7009FDE45 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		78094E8019F00EB7009FDE45 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		78094E8619F00EB7009FDE45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78094E8819F00EB7009FDE45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78094E8A19F00EB7009FDE45 /* Practicing Arrays-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Practicing Arrays-Prefix.pch"; sourceTree = "<group>"; };
+		78094E8B19F00EB7009FDE45 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		78094E8C19F00EB7009FDE45 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		78094E8F19F00EB7009FDE45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78094E9119F00EB7009FDE45 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		78094E9219F00EB7009FDE45 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		78094E9419F00EB7009FDE45 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		78094E9A19F00EB7009FDE45 /* Practicing ArraysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Practicing ArraysTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78094E9B19F00EB7009FDE45 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		78094EA319F00EB7009FDE45 /* Practicing ArraysTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Practicing ArraysTests-Info.plist"; sourceTree = "<group>"; };
+		78094EA519F00EB7009FDE45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78094EA719F00EB7009FDE45 /* Practicing_ArraysTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Practicing_ArraysTests.m; sourceTree = "<group>"; };
+		78094EB319F013B2009FDE45 /* LessonsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LessonsViewController.h; sourceTree = "<group>"; };
+		78094EB419F013B2009FDE45 /* LessonsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LessonsViewController.m; sourceTree = "<group>"; };
+		78143A861A0BF88C006E8CCA /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
+		781C851D1A0C01F900745432 /* array2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = array2.png; sourceTree = "<group>"; };
+		781C851F1A0C025200745432 /* array.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = array.png; sourceTree = "<group>"; };
+		781C85211A0C033700745432 /* array3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = array3.png; sourceTree = "<group>"; };
+		781C85231A0C033B00745432 /* array4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = array4.png; sourceTree = "<group>"; };
+		781C85251A0C033F00745432 /* array5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = array5.png; sourceTree = "<group>"; };
+		781C85271A0C034200745432 /* array6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = array6.png; sourceTree = "<group>"; };
+		786B123E19F03B4D001F7997 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		786B123F19F03B4D001F7997 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		786B124119F03FE1001F7997 /* LoopArrayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoopArrayViewController.h; sourceTree = "<group>"; };
+		786B124219F03FE1001F7997 /* LoopArrayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoopArrayViewController.m; sourceTree = "<group>"; };
+		786B124419F040DF001F7997 /* SortArrayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortArrayViewController.h; sourceTree = "<group>"; };
+		786B124519F040DF001F7997 /* SortArrayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortArrayViewController.m; sourceTree = "<group>"; };
+		786EBEEE19F14FB600788E39 /* TryitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TryitViewController.h; sourceTree = "<group>"; };
+		786EBEEF19F14FB600788E39 /* TryitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TryitViewController.m; sourceTree = "<group>"; };
+		786EBF3419F15D5100788E39 /* DisplayArrayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisplayArrayViewController.h; sourceTree = "<group>"; };
+		786EBF3519F15D5100788E39 /* DisplayArrayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisplayArrayViewController.m; sourceTree = "<group>"; };
+		786EBF3719F1611E00788E39 /* ChangeArrayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeArrayViewController.h; sourceTree = "<group>"; };
+		786EBF3819F1611E00788E39 /* ChangeArrayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeArrayViewController.m; sourceTree = "<group>"; };
+		786EBF3A19F163F800788E39 /* QuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizViewController.h; sourceTree = "<group>"; };
+		786EBF3B19F163F800788E39 /* QuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizViewController.m; sourceTree = "<group>"; };
+		78D678E71A13AC5700A32689 /* QuizQuestion1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = QuizQuestion1.txt; path = ../QuizQuestion1.txt; sourceTree = "<group>"; };
+		78D678E91A13ACD900A32689 /* QuizQuestion2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = QuizQuestion2.txt; path = ../QuizQuestion2.txt; sourceTree = "<group>"; };
+		78D678EB1A13ACF200A32689 /* QuizQuestion3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = QuizQuestion3.txt; path = ../QuizQuestion3.txt; sourceTree = "<group>"; };
+		78D678EC1A13ACF200A32689 /* QuizQuestion4.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = QuizQuestion4.txt; path = ../QuizQuestion4.txt; sourceTree = "<group>"; };
+		78D678ED1A13ACF200A32689 /* QuizQuestion5.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = QuizQuestion5.txt; path = ../QuizQuestion5.txt; sourceTree = "<group>"; };
+		78D678EE1A13ACF200A32689 /* QuizQuestion6.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = QuizQuestion6.txt; path = ../QuizQuestion6.txt; sourceTree = "<group>"; };
+		78D678EF1A13ACF200A32689 /* QuizQuestion7.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = QuizQuestion7.txt; path = ../QuizQuestion7.txt; sourceTree = "<group>"; };
+		78D678F01A13ACF200A32689 /* QuizQuestion8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = QuizQuestion8.txt; path = ../QuizQuestion8.txt; sourceTree = "<group>"; };
+		78D678F11A13ACF200A32689 /* QuizQuestion9.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = QuizQuestion9.txt; path = ../QuizQuestion9.txt; sourceTree = "<group>"; };
+		78D678F21A13ACF200A32689 /* QuizQuestion10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = QuizQuestion10.txt; path = ../QuizQuestion10.txt; sourceTree = "<group>"; };
+		78D678FB1A13AD1C00A32689 /* QuizQuestion11.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = QuizQuestion11.txt; path = ../QuizQuestion11.txt; sourceTree = "<group>"; };
+		78D678FC1A13AD1C00A32689 /* QuizQuestion12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = QuizQuestion12.txt; path = ../QuizQuestion12.txt; sourceTree = "<group>"; };
+		78D678FD1A13AD1C00A32689 /* QuizQuestion13.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = QuizQuestion13.txt; path = ../QuizQuestion13.txt; sourceTree = "<group>"; };
+		78D678FE1A13AD1C00A32689 /* QuizQuestion14.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = QuizQuestion14.txt; path = ../QuizQuestion14.txt; sourceTree = "<group>"; };
+		78D678FF1A13AD1C00A32689 /* QuizQuestion15.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = QuizQuestion15.txt; path = ../QuizQuestion15.txt; sourceTree = "<group>"; };
+		78D679001A13AD1C00A32689 /* QuizQuestion16.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = QuizQuestion16.txt; path = ../QuizQuestion16.txt; sourceTree = "<group>"; };
+		78D679011A13AD1C00A32689 /* QuizQuestion17.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = QuizQuestion17.txt; path = ../QuizQuestion17.txt; sourceTree = "<group>"; };
+		78D679021A13AD1C00A32689 /* QuizQuestion18.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = QuizQuestion18.txt; path = ../QuizQuestion18.txt; sourceTree = "<group>"; };
+		78D679031A13AD1C00A32689 /* QuizQuestion19.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = QuizQuestion19.txt; path = ../QuizQuestion19.txt; sourceTree = "<group>"; };
+		78D679041A13AD1C00A32689 /* QuizQuestion20.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = QuizQuestion20.txt; path = ../QuizQuestion20.txt; sourceTree = "<group>"; };
+		78D679051A13AD1C00A32689 /* QuizQuestion21.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = QuizQuestion21.txt; path = ../QuizQuestion21.txt; sourceTree = "<group>"; };
+		78D679061A13AD1C00A32689 /* QuizQuestion22.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = QuizQuestion22.txt; path = ../QuizQuestion22.txt; sourceTree = "<group>"; };
+		78D679071A13AD1C00A32689 /* QuizQuestion23.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = QuizQuestion23.txt; path = ../QuizQuestion23.txt; sourceTree = "<group>"; };
+		78D679081A13AD1C00A32689 /* QuizQuestion24.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = QuizQuestion24.txt; path = ../QuizQuestion24.txt; sourceTree = "<group>"; };
+		78D679091A13AD1C00A32689 /* QuizQuestion25.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = QuizQuestion25.txt; path = ../QuizQuestion25.txt; sourceTree = "<group>"; };
+		78D6790A1A13AD1C00A32689 /* QuizQuestion26.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = QuizQuestion26.txt; path = ../QuizQuestion26.txt; sourceTree = "<group>"; };
+		78D6790B1A13AD1C00A32689 /* QuizQuestion27.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = QuizQuestion27.txt; path = ../QuizQuestion27.txt; sourceTree = "<group>"; };
+		78D6790C1A13AD1C00A32689 /* QuizQuestion28.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = QuizQuestion28.txt; path = ../QuizQuestion28.txt; sourceTree = "<group>"; };
+		78D6790D1A13AD1C00A32689 /* QuizQuestion29.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = QuizQuestion29.txt; path = ../QuizQuestion29.txt; sourceTree = "<group>"; };
+		78D6790E1A13AD1C00A32689 /* QuizQuestion30.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = QuizQuestion30.txt; path = ../QuizQuestion30.txt; sourceTree = "<group>"; };
+		78D679231A13AD3D00A32689 /* TryIt1Answers.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TryIt1Answers.txt; path = ../TryIt1Answers.txt; sourceTree = "<group>"; };
+		78D679241A13AD3D00A32689 /* TryIt2Answer.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TryIt2Answer.txt; path = ../TryIt2Answer.txt; sourceTree = "<group>"; };
+		78D679251A13AD3D00A32689 /* TryIt3Answer.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TryIt3Answer.txt; path = ../TryIt3Answer.txt; sourceTree = "<group>"; };
+		78D679261A13AD3D00A32689 /* TryIt4Answer.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TryIt4Answer.txt; path = ../TryIt4Answer.txt; sourceTree = "<group>"; };
+		78D679271A13AD3D00A32689 /* TryIt5Answer.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TryIt5Answer.txt; path = ../TryIt5Answer.txt; sourceTree = "<group>"; };
+		78D679281A13AD3D00A32689 /* TryIt6Answer.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TryIt6Answer.txt; path = ../TryIt6Answer.txt; sourceTree = "<group>"; };
+		78D679291A13AD3D00A32689 /* TryIt7Answer.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TryIt7Answer.txt; path = ../TryIt7Answer.txt; sourceTree = "<group>"; };
+		78D6792A1A13AD3D00A32689 /* TryIt8Answer.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TryIt8Answer.txt; path = ../TryIt8Answer.txt; sourceTree = "<group>"; };
+		78D6792B1A13AD3D00A32689 /* TryIt9Answer.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TryIt9Answer.txt; path = ../TryIt9Answer.txt; sourceTree = "<group>"; };
+		78D6792C1A13AD3D00A32689 /* TryIt10Answer.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TryIt10Answer.txt; path = ../TryIt10Answer.txt; sourceTree = "<group>"; };
+		78D6792D1A13AD3D00A32689 /* TryIt11Answer.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TryIt11Answer.txt; path = ../TryIt11Answer.txt; sourceTree = "<group>"; };
+		78D6792E1A13AD3D00A32689 /* TryIt12Answer.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TryIt12Answer.txt; path = ../TryIt12Answer.txt; sourceTree = "<group>"; };
+		78D6792F1A13AD3D00A32689 /* TryIt13Answer.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TryIt13Answer.txt; path = ../TryIt13Answer.txt; sourceTree = "<group>"; };
+		78D679301A13AD3D00A32689 /* TryIt14Answer.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TryIt14Answer.txt; path = ../TryIt14Answer.txt; sourceTree = "<group>"; };
+		78D679311A13AD3D00A32689 /* TryIt15Answer.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TryIt15Answer.txt; path = ../TryIt15Answer.txt; sourceTree = "<group>"; };
+		78D679321A13AD3D00A32689 /* TryIt16Answer.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TryIt16Answer.txt; path = ../TryIt16Answer.txt; sourceTree = "<group>"; };
+		78D679331A13AD3D00A32689 /* TryIt17Answer.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TryIt17Answer.txt; path = ../TryIt17Answer.txt; sourceTree = "<group>"; };
+		78D679341A13AD3D00A32689 /* TryIt18Answer.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TryIt18Answer.txt; path = ../TryIt18Answer.txt; sourceTree = "<group>"; };
+		78D679351A13AD3D00A32689 /* TryIt19Answer.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TryIt19Answer.txt; path = ../TryIt19Answer.txt; sourceTree = "<group>"; };
+		78D679361A13AD3D00A32689 /* TryIt20Answer.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = TryIt20Answer.txt; path = ../TryIt20Answer.txt; sourceTree = "<group>"; };
+		78D6794D1A13B14A00A32689 /* Buzzer1-2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Buzzer1-2.mp3"; path = "../Buzzer1-2.mp3"; sourceTree = "<group>"; };
+		78D6794F1A13B15A00A32689 /* GameshowBellDing1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = GameshowBellDing1.mp3; path = ../GameshowBellDing1.mp3; sourceTree = "<group>"; };
+		78D679511A13B1A000A32689 /* array.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = array.jpg; path = ../array.jpg; sourceTree = "<group>"; };
+		78D679521A13B1A000A32689 /* arrays_1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = arrays_1.gif; path = ../arrays_1.gif; sourceTree = "<group>"; };
+		78D679531A13B1A000A32689 /* arrays_sort_asc.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = arrays_sort_asc.gif; path = ../arrays_sort_asc.gif; sourceTree = "<group>"; };
+		78D679541A13B1A000A32689 /* initilize-values-in-array.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "initilize-values-in-array.gif"; path = "../initilize-values-in-array.gif"; sourceTree = "<group>"; };
+		78D679551A13B1A000A32689 /* loop-string-vs-array.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "loop-string-vs-array.png"; path = "../loop-string-vs-array.png"; sourceTree = "<group>"; };
+		78D679561A13B1A000A32689 /* picture-declare-java-array.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "picture-declare-java-array.gif"; path = "../picture-declare-java-array.gif"; sourceTree = "<group>"; };
+		78D679571A13B1A000A32689 /* picture-declare-java-array2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "picture-declare-java-array2.gif"; path = "../picture-declare-java-array2.gif"; sourceTree = "<group>"; };
+		78D679581A13B1A000A32689 /* Slide1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Slide1.jpg; path = ../Slide1.jpg; sourceTree = "<group>"; };
+		78D679611A13B25000A32689 /* javahome.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = javahome.jpg; path = ../javahome.jpg; sourceTree = "<group>"; };
+		78D679631A13B29900A32689 /* array.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = array.png; path = ../array.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78094E7619F00EB7009FDE45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78094E7F19F00EB7009FDE45 /* CoreGraphics.framework in Frameworks */,
+				78094E8119F00EB7009FDE45 /* UIKit.framework in Frameworks */,
+				78094E7D19F00EB7009FDE45 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78094E9719F00EB7009FDE45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78094E9C19F00EB7009FDE45 /* XCTest.framework in Frameworks */,
+				78094E9E19F00EB7009FDE45 /* UIKit.framework in Frameworks */,
+				78094E9D19F00EB7009FDE45 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78094E7019F00EB7009FDE45 = {
+			isa = PBXGroup;
+			children = (
+				78094E8219F00EB7009FDE45 /* Practicing Arrays */,
+				78094EA119F00EB7009FDE45 /* Practicing ArraysTests */,
+				78094E7B19F00EB7009FDE45 /* Frameworks */,
+				78094E7A19F00EB7009FDE45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78094E7A19F00EB7009FDE45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78094E7919F00EB7009FDE45 /* Practicing Arrays.app */,
+				78094E9A19F00EB7009FDE45 /* Practicing ArraysTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78094E7B19F00EB7009FDE45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78094E7C19F00EB7009FDE45 /* Foundation.framework */,
+				78094E7E19F00EB7009FDE45 /* CoreGraphics.framework */,
+				78094E8019F00EB7009FDE45 /* UIKit.framework */,
+				78094E9B19F00EB7009FDE45 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78094E8219F00EB7009FDE45 /* Practicing Arrays */ = {
+			isa = PBXGroup;
+			children = (
+				78094E8B19F00EB7009FDE45 /* AppDelegate.h */,
+				78094E8C19F00EB7009FDE45 /* AppDelegate.m */,
+				78094E8E19F00EB7009FDE45 /* Main.storyboard */,
+				78094E9119F00EB7009FDE45 /* ViewController.h */,
+				78094E9219F00EB7009FDE45 /* ViewController.m */,
+				78094EB319F013B2009FDE45 /* LessonsViewController.h */,
+				78094EB419F013B2009FDE45 /* LessonsViewController.m */,
+				786B123E19F03B4D001F7997 /* WebViewController.h */,
+				786B123F19F03B4D001F7997 /* WebViewController.m */,
+				786B124119F03FE1001F7997 /* LoopArrayViewController.h */,
+				786B124219F03FE1001F7997 /* LoopArrayViewController.m */,
+				786B124419F040DF001F7997 /* SortArrayViewController.h */,
+				786B124519F040DF001F7997 /* SortArrayViewController.m */,
+				786EBEEE19F14FB600788E39 /* TryitViewController.h */,
+				786EBEEF19F14FB600788E39 /* TryitViewController.m */,
+				786EBF3419F15D5100788E39 /* DisplayArrayViewController.h */,
+				786EBF3519F15D5100788E39 /* DisplayArrayViewController.m */,
+				786EBF3719F1611E00788E39 /* ChangeArrayViewController.h */,
+				786EBF3819F1611E00788E39 /* ChangeArrayViewController.m */,
+				786EBF3A19F163F800788E39 /* QuizViewController.h */,
+				786EBF3B19F163F800788E39 /* QuizViewController.m */,
+				78094E9419F00EB7009FDE45 /* Images.xcassets */,
+				78143A861A0BF88C006E8CCA /* Images-2.xcassets */,
+				78094E8319F00EB7009FDE45 /* Supporting Files */,
+			);
+			path = "Practicing Arrays";
+			sourceTree = "<group>";
+		};
+		78094E8319F00EB7009FDE45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				781C85271A0C034200745432 /* array6.png */,
+				78D679631A13B29900A32689 /* array.png */,
+				78D679611A13B25000A32689 /* javahome.jpg */,
+				78D679511A13B1A000A32689 /* array.jpg */,
+				78D679521A13B1A000A32689 /* arrays_1.gif */,
+				78D679531A13B1A000A32689 /* arrays_sort_asc.gif */,
+				78D679541A13B1A000A32689 /* initilize-values-in-array.gif */,
+				78D679551A13B1A000A32689 /* loop-string-vs-array.png */,
+				78D679561A13B1A000A32689 /* picture-declare-java-array.gif */,
+				78D679571A13B1A000A32689 /* picture-declare-java-array2.gif */,
+				78D679581A13B1A000A32689 /* Slide1.jpg */,
+				78D6794F1A13B15A00A32689 /* GameshowBellDing1.mp3 */,
+				78D6794D1A13B14A00A32689 /* Buzzer1-2.mp3 */,
+				78D679231A13AD3D00A32689 /* TryIt1Answers.txt */,
+				78D679241A13AD3D00A32689 /* TryIt2Answer.txt */,
+				78D679251A13AD3D00A32689 /* TryIt3Answer.txt */,
+				78D679261A13AD3D00A32689 /* TryIt4Answer.txt */,
+				78D679271A13AD3D00A32689 /* TryIt5Answer.txt */,
+				78D679281A13AD3D00A32689 /* TryIt6Answer.txt */,
+				78D679291A13AD3D00A32689 /* TryIt7Answer.txt */,
+				78D6792A1A13AD3D00A32689 /* TryIt8Answer.txt */,
+				78D6792B1A13AD3D00A32689 /* TryIt9Answer.txt */,
+				78D6792C1A13AD3D00A32689 /* TryIt10Answer.txt */,
+				78D6792D1A13AD3D00A32689 /* TryIt11Answer.txt */,
+				78D6792E1A13AD3D00A32689 /* TryIt12Answer.txt */,
+				78D6792F1A13AD3D00A32689 /* TryIt13Answer.txt */,
+				78D679301A13AD3D00A32689 /* TryIt14Answer.txt */,
+				78D679311A13AD3D00A32689 /* TryIt15Answer.txt */,
+				78D679321A13AD3D00A32689 /* TryIt16Answer.txt */,
+				78D679331A13AD3D00A32689 /* TryIt17Answer.txt */,
+				78D679341A13AD3D00A32689 /* TryIt18Answer.txt */,
+				78D679351A13AD3D00A32689 /* TryIt19Answer.txt */,
+				78D679361A13AD3D00A32689 /* TryIt20Answer.txt */,
+				78D678E71A13AC5700A32689 /* QuizQuestion1.txt */,
+				78D678E91A13ACD900A32689 /* QuizQuestion2.txt */,
+				78D678EB1A13ACF200A32689 /* QuizQuestion3.txt */,
+				78D678EC1A13ACF200A32689 /* QuizQuestion4.txt */,
+				78D678ED1A13ACF200A32689 /* QuizQuestion5.txt */,
+				78D678EE1A13ACF200A32689 /* QuizQuestion6.txt */,
+				78D678EF1A13ACF200A32689 /* QuizQuestion7.txt */,
+				78D678F01A13ACF200A32689 /* QuizQuestion8.txt */,
+				78D678F11A13ACF200A32689 /* QuizQuestion9.txt */,
+				78D678F21A13ACF200A32689 /* QuizQuestion10.txt */,
+				78D678FB1A13AD1C00A32689 /* QuizQuestion11.txt */,
+				78D678FC1A13AD1C00A32689 /* QuizQuestion12.txt */,
+				78D678FD1A13AD1C00A32689 /* QuizQuestion13.txt */,
+				78D678FE1A13AD1C00A32689 /* QuizQuestion14.txt */,
+				78D678FF1A13AD1C00A32689 /* QuizQuestion15.txt */,
+				78D679001A13AD1C00A32689 /* QuizQuestion16.txt */,
+				78D679011A13AD1C00A32689 /* QuizQuestion17.txt */,
+				78D679021A13AD1C00A32689 /* QuizQuestion18.txt */,
+				78D679031A13AD1C00A32689 /* QuizQuestion19.txt */,
+				78D679041A13AD1C00A32689 /* QuizQuestion20.txt */,
+				78D679051A13AD1C00A32689 /* QuizQuestion21.txt */,
+				78D679061A13AD1C00A32689 /* QuizQuestion22.txt */,
+				78D679071A13AD1C00A32689 /* QuizQuestion23.txt */,
+				78D679081A13AD1C00A32689 /* QuizQuestion24.txt */,
+				78D679091A13AD1C00A32689 /* QuizQuestion25.txt */,
+				78D6790A1A13AD1C00A32689 /* QuizQuestion26.txt */,
+				78D6790B1A13AD1C00A32689 /* QuizQuestion27.txt */,
+				78D6790C1A13AD1C00A32689 /* QuizQuestion28.txt */,
+				78D6790D1A13AD1C00A32689 /* QuizQuestion29.txt */,
+				78D6790E1A13AD1C00A32689 /* QuizQuestion30.txt */,
+				781C85251A0C033F00745432 /* array5.png */,
+				781C85231A0C033B00745432 /* array4.png */,
+				781C85211A0C033700745432 /* array3.png */,
+				781C851F1A0C025200745432 /* array.png */,
+				781C851D1A0C01F900745432 /* array2.png */,
+				78094E8519F00EB7009FDE45 /* InfoPlist.strings */,
+				78094E8819F00EB7009FDE45 /* main.m */,
+				78094E8A19F00EB7009FDE45 /* Practicing Arrays-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		78094EA119F00EB7009FDE45 /* Practicing ArraysTests */ = {
+			isa = PBXGroup;
+			children = (
+				78094EA719F00EB7009FDE45 /* Practicing_ArraysTests.m */,
+				78094EA219F00EB7009FDE45 /* Supporting Files */,
+			);
+			path = "Practicing ArraysTests";
+			sourceTree = "<group>";
+		};
+		78094EA219F00EB7009FDE45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78094EA319F00EB7009FDE45 /* Practicing ArraysTests-Info.plist */,
+				78094EA419F00EB7009FDE45 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78094E7819F00EB7009FDE45 /* Practicing Arrays */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78094EAB19F00EB7009FDE45 /* Build configuration list for PBXNativeTarget "Practicing Arrays" */;
+			buildPhases = (
+				78094E7519F00EB7009FDE45 /* Sources */,
+				78094E7619F00EB7009FDE45 /* Frameworks */,
+				78094E7719F00EB7009FDE45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Practicing Arrays";
+			productName = "Practicing Arrays";
+			productReference = 78094E7919F00EB7009FDE45 /* Practicing Arrays.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78094E9919F00EB7009FDE45 /* Practicing ArraysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78094EAE19F00EB7009FDE45 /* Build configuration list for PBXNativeTarget "Practicing ArraysTests" */;
+			buildPhases = (
+				78094E9619F00EB7009FDE45 /* Sources */,
+				78094E9719F00EB7009FDE45 /* Frameworks */,
+				78094E9819F00EB7009FDE45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78094EA019F00EB7009FDE45 /* PBXTargetDependency */,
+			);
+			name = "Practicing ArraysTests";
+			productName = "Practicing ArraysTests";
+			productReference = 78094E9A19F00EB7009FDE45 /* Practicing ArraysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78094E7119F00EB7009FDE45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___Allen Perry___";
+				TargetAttributes = {
+					78094E9919F00EB7009FDE45 = {
+						TestTargetID = 78094E7819F00EB7009FDE45;
+					};
+				};
+			};
+			buildConfigurationList = 78094E7419F00EB7009FDE45 /* Build configuration list for PBXProject "Practicing Arrays" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78094E7019F00EB7009FDE45;
+			productRefGroup = 78094E7A19F00EB7009FDE45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78094E7819F00EB7009FDE45 /* Practicing Arrays */,
+				78094E9919F00EB7009FDE45 /* Practicing ArraysTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78094E7719F00EB7009FDE45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78D6793C1A13AD3D00A32689 /* TryIt6Answer.txt in Resources */,
+				78D678EA1A13ACD900A32689 /* QuizQuestion2.txt in Resources */,
+				78D679501A13B15A00A32689 /* GameshowBellDing1.mp3 in Resources */,
+				78D6794E1A13B14A00A32689 /* Buzzer1-2.mp3 in Resources */,
+				78D679161A13AD1C00A32689 /* QuizQuestion18.txt in Resources */,
+				78D6793E1A13AD3D00A32689 /* TryIt8Answer.txt in Resources */,
+				78D6791B1A13AD1C00A32689 /* QuizQuestion23.txt in Resources */,
+				78D678F51A13ACF200A32689 /* QuizQuestion5.txt in Resources */,
+				78D679191A13AD1C00A32689 /* QuizQuestion21.txt in Resources */,
+				78D6793A1A13AD3D00A32689 /* TryIt4Answer.txt in Resources */,
+				78094E9519F00EB7009FDE45 /* Images.xcassets in Resources */,
+				78D6791C1A13AD1C00A32689 /* QuizQuestion24.txt in Resources */,
+				78D679431A13AD3D00A32689 /* TryIt13Answer.txt in Resources */,
+				78D679591A13B1A000A32689 /* array.jpg in Resources */,
+				78D679481A13AD3D00A32689 /* TryIt18Answer.txt in Resources */,
+				78D678F61A13ACF200A32689 /* QuizQuestion6.txt in Resources */,
+				78D6791E1A13AD1C00A32689 /* QuizQuestion26.txt in Resources */,
+				78D678F71A13ACF200A32689 /* QuizQuestion7.txt in Resources */,
+				78D679621A13B25000A32689 /* javahome.jpg in Resources */,
+				78D6795A1A13B1A000A32689 /* arrays_1.gif in Resources */,
+				78D6795C1A13B1A000A32689 /* initilize-values-in-array.gif in Resources */,
+				781C85281A0C034200745432 /* array6.png in Resources */,
+				78D679391A13AD3D00A32689 /* TryIt3Answer.txt in Resources */,
+				78D6793B1A13AD3D00A32689 /* TryIt5Answer.txt in Resources */,
+				78D679101A13AD1C00A32689 /* QuizQuestion12.txt in Resources */,
+				781C85241A0C033B00745432 /* array4.png in Resources */,
+				78D679121A13AD1C00A32689 /* QuizQuestion14.txt in Resources */,
+				78D6795B1A13B1A000A32689 /* arrays_sort_asc.gif in Resources */,
+				78D6790F1A13AD1C00A32689 /* QuizQuestion11.txt in Resources */,
+				78D679151A13AD1C00A32689 /* QuizQuestion17.txt in Resources */,
+				78D6791D1A13AD1C00A32689 /* QuizQuestion25.txt in Resources */,
+				78D678F31A13ACF200A32689 /* QuizQuestion3.txt in Resources */,
+				78D6791F1A13AD1C00A32689 /* QuizQuestion27.txt in Resources */,
+				78D6795F1A13B1A000A32689 /* picture-declare-java-array2.gif in Resources */,
+				78D679201A13AD1C00A32689 /* QuizQuestion28.txt in Resources */,
+				78D679451A13AD3D00A32689 /* TryIt15Answer.txt in Resources */,
+				781C85221A0C033700745432 /* array3.png in Resources */,
+				78D679171A13AD1C00A32689 /* QuizQuestion19.txt in Resources */,
+				78D679211A13AD1C00A32689 /* QuizQuestion29.txt in Resources */,
+				78D679111A13AD1C00A32689 /* QuizQuestion13.txt in Resources */,
+				78D678E81A13AC5700A32689 /* QuizQuestion1.txt in Resources */,
+				78094E8719F00EB7009FDE45 /* InfoPlist.strings in Resources */,
+				78D6793D1A13AD3D00A32689 /* TryIt7Answer.txt in Resources */,
+				78D678FA1A13ACF200A32689 /* QuizQuestion10.txt in Resources */,
+				78D679601A13B1A000A32689 /* Slide1.jpg in Resources */,
+				78D678F91A13ACF200A32689 /* QuizQuestion9.txt in Resources */,
+				78D679371A13AD3D00A32689 /* TryIt1Answers.txt in Resources */,
+				78D6794A1A13AD3D00A32689 /* TryIt20Answer.txt in Resources */,
+				78D679471A13AD3D00A32689 /* TryIt17Answer.txt in Resources */,
+				78D679421A13AD3D00A32689 /* TryIt12Answer.txt in Resources */,
+				781C85261A0C033F00745432 /* array5.png in Resources */,
+				78D6791A1A13AD1C00A32689 /* QuizQuestion22.txt in Resources */,
+				78D679381A13AD3D00A32689 /* TryIt2Answer.txt in Resources */,
+				78D679131A13AD1C00A32689 /* QuizQuestion15.txt in Resources */,
+				78D679401A13AD3D00A32689 /* TryIt10Answer.txt in Resources */,
+				78D679221A13AD1C00A32689 /* QuizQuestion30.txt in Resources */,
+				78D679411A13AD3D00A32689 /* TryIt11Answer.txt in Resources */,
+				78D679461A13AD3D00A32689 /* TryIt16Answer.txt in Resources */,
+				78D679141A13AD1C00A32689 /* QuizQuestion16.txt in Resources */,
+				78D679491A13AD3D00A32689 /* TryIt19Answer.txt in Resources */,
+				78D6793F1A13AD3D00A32689 /* TryIt9Answer.txt in Resources */,
+				78D679181A13AD1C00A32689 /* QuizQuestion20.txt in Resources */,
+				78D678F81A13ACF200A32689 /* QuizQuestion8.txt in Resources */,
+				78143A871A0BF88C006E8CCA /* Images-2.xcassets in Resources */,
+				78094E9019F00EB7009FDE45 /* Main.storyboard in Resources */,
+				781C851E1A0C01F900745432 /* array2.png in Resources */,
+				78D678F41A13ACF200A32689 /* QuizQuestion4.txt in Resources */,
+				78D679641A13B29900A32689 /* array.png in Resources */,
+				78D679441A13AD3D00A32689 /* TryIt14Answer.txt in Resources */,
+				78D6795D1A13B1A000A32689 /* loop-string-vs-array.png in Resources */,
+				78D6795E1A13B1A000A32689 /* picture-declare-java-array.gif in Resources */,
+				781C85201A0C025200745432 /* array.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78094E9819F00EB7009FDE45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78094EA619F00EB7009FDE45 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78094E7519F00EB7009FDE45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78094EB519F013B2009FDE45 /* LessonsViewController.m in Sources */,
+				786B124019F03B4D001F7997 /* WebViewController.m in Sources */,
+				786B124619F040DF001F7997 /* SortArrayViewController.m in Sources */,
+				786EBF3619F15D5100788E39 /* DisplayArrayViewController.m in Sources */,
+				78094E9319F00EB7009FDE45 /* ViewController.m in Sources */,
+				786EBEF019F14FB600788E39 /* TryitViewController.m in Sources */,
+				78094E8D19F00EB7009FDE45 /* AppDelegate.m in Sources */,
+				786B124319F03FE1001F7997 /* LoopArrayViewController.m in Sources */,
+				786EBF3919F1611E00788E39 /* ChangeArrayViewController.m in Sources */,
+				78094E8919F00EB7009FDE45 /* main.m in Sources */,
+				786EBF3C19F163F800788E39 /* QuizViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78094E9619F00EB7009FDE45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78094EA819F00EB7009FDE45 /* Practicing_ArraysTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78094EA019F00EB7009FDE45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78094E7819F00EB7009FDE45 /* Practicing Arrays */;
+			targetProxy = 78094E9F19F00EB7009FDE45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78094E8519F00EB7009FDE45 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78094E8619F00EB7009FDE45 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		78094E8E19F00EB7009FDE45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78094E8F19F00EB7009FDE45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78094EA419F00EB7009FDE45 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78094EA519F00EB7009FDE45 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78094EA919F00EB7009FDE45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		78094EAA19F00EB7009FDE45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78094EAC19F00EB7009FDE45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Practicing Arrays/Practicing Arrays-Prefix.pch";
+				INFOPLIST_FILE = "Practicing Arrays/Practicing Arrays-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		78094EAD19F00EB7009FDE45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Practicing Arrays/Practicing Arrays-Prefix.pch";
+				INFOPLIST_FILE = "Practicing Arrays/Practicing Arrays-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		78094EAF19F00EB7009FDE45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Practicing Arrays.app/Practicing Arrays";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Practicing Arrays/Practicing Arrays-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Practicing ArraysTests/Practicing ArraysTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		78094EB019F00EB7009FDE45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Practicing Arrays.app/Practicing Arrays";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Practicing Arrays/Practicing Arrays-Prefix.pch";
+				INFOPLIST_FILE = "Practicing ArraysTests/Practicing ArraysTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78094E7419F00EB7009FDE45 /* Build configuration list for PBXProject "Practicing Arrays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78094EA919F00EB7009FDE45 /* Debug */,
+				78094EAA19F00EB7009FDE45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78094EAB19F00EB7009FDE45 /* Build configuration list for PBXNativeTarget "Practicing Arrays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78094EAC19F00EB7009FDE45 /* Debug */,
+				78094EAD19F00EB7009FDE45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78094EAE19F00EB7009FDE45 /* Build configuration list for PBXNativeTarget "Practicing ArraysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78094EAF19F00EB7009FDE45 /* Debug */,
+				78094EB019F00EB7009FDE45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78094E7119F00EB7009FDE45 /* Project object */;
+}

@@ -1,0 +1,5 @@
+What is the value of names[4] in the following array?  String[] names = {“Jeff”, “Dan”, “Sally”, “Jill”, “Allie”};
+a. Sally
+b. Jill
+c. Allie
+d. name[4] doesn’t exist
